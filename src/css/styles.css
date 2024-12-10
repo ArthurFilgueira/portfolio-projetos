@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #D5D4D2); <! -- #9e00ff -->
+	background: linear-gradient(150deg, #000000, #D5D4D2); 
 	background-size: 120% 120%;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .cabecalho a:hover .logo {
 	color: #9443d8;
-	border: 2px solid #9443d8;
+	border: 2px solid #D5D4D2;
 }
 
 .cabecalho .menu li a {
