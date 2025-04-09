@@ -1,5 +1,5 @@
 html {
-    color: #fff;
+    color: #ffffff; /* Mantém o texto principal branco para contraste */
     scroll-behavior: smooth;
 }
 
@@ -7,9 +7,10 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: linear-gradient(135deg, #343a40, #6c757d, #adb5bd); /* Degradê que vai do cinza escuro ao cinza claro */
+    background: linear-gradient(135deg, #1b1f23, #2d333b, #3c4147); /* Degradê de azul escuro para cinza */
     background-size: 120% 120%;
 }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -21,7 +22,7 @@ body {
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
     text-decoration: underline;
     text-align: center;
     line-height: 55px;
@@ -29,22 +30,17 @@ body {
     transition: 0.2s;
 }
 
-.cabecalho .menu li a:hover {
-    background-color: #9443d8;
-    color: #fff;
-    border-radius: 50px;
-}
-
 .cabecalho .menu li a {
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
     transition: 0.2s;
+    color: #ffffff; /* Texto branco para contraste */
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #9443d8;
-    color: #fff;
+    background-color: #0073b1; /* Azul LinkedIn */
+    color: #ffffff;
     border-radius: 50px;
 }
 
@@ -69,12 +65,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 45px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .home .informacoes p {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     margin-bottom: 20px;
+    color: #d1d5da; /* Cinza claro para contraste */
 }
 
 .home .redes-sociais {
@@ -83,7 +81,7 @@ body {
 }
 
 .home .redes-sociais a i {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -91,11 +89,12 @@ body {
     text-align: center;
     font-size: 26px;
     transition: 0.3s;
+    color: #ffffff;
 }
 
 .home .redes-sociais a i:hover {
-    color: #9443d8;
-    border: 1px solid #9443d8;
+    color: #0073b1; /* Azul LinkedIn */
+    border: 1px solid #0073b1;
     transform: scale(1.1);
 }
 
@@ -110,7 +109,7 @@ body {
 }
 
 .home .foto.sombra-interna {
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+    background: linear-gradient(to right, #32b7ff, #d8f1ff0e, #c1ecff);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -125,47 +124,48 @@ body {
     font-size: 45px;
     font-weight: 500;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 .projetos .container-projetos {
     display: flex;
-    flex-wrap: wrap; /* Itens podem quebrar para outra linha */
-    gap: 20px; /* Espaço entre os itens */
-    justify-content: center; /* Centraliza os itens */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .projetos .projeto {
-    width: 300px; /* Define uma largura fixa para os cartões */
+    width: 300px;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 10px; /* Cantos arredondados */
+    border: 1px solid #444c56;
+    border-radius: 10px;
     padding: 10px;
-    background-color: #fff; /* Fundo branco para contraste */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background-color: #2d333b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
 }
 
 .projetos .projeto:hover {
-    transform: scale(1.05); /* Zoom ao passar o mouse */
+    transform: scale(1.05);
 }
 
 .projetos .projeto img {
-    width: 100%; /* A imagem ocupa toda a largura do cartão */
-    height: auto; /* Mantém as proporções */
-    border-radius: 5px; /* Cantos arredondados */
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .projetos .projeto h3 {
     font-size: 18px;
     margin-top: 10px;
-    color: #333;
+    color: #ffffff;
 }
 
 .projetos .btn-mostrar-projetos {
     background: none;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 15px;
-    color: #fff;
+    color: #ffffff;
     width: 180px;
     padding: 20px;
     font-size: 18px;
@@ -178,7 +178,7 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #9443d8;
+    background-color: #0073b1;
     transition: 0.3s;
 }
 
