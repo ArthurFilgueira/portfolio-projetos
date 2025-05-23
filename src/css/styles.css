@@ -114,6 +114,15 @@ body {
     animation: gradient-animation 5s ease infinite;
 }
 
+
+
+.projeto {
+max-height: 450px;
+
+
+
+}
+
 .projetos {
     padding: 70px 0 70px;
 }
